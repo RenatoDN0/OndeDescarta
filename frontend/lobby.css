@@ -1,6 +1,5 @@
 html{
     font-size: 62.5%;
-    height: 100%;
     width: 100%;
 }
 *{
@@ -16,7 +15,6 @@ html{
 body{
     font-family: "Helvetica", Arial, sans-serif;
     background-color: var(--branco);
-    height: 100%;
     width: 100%;
     padding: 2% 5%; 
 }           
