@@ -10,6 +10,7 @@ html{
 :root{
     --verde: rgb(108, 160, 86);
     --branco: rgb(255, 255, 255);
+    --verdeClaro: rgb(117, 173, 128);
 }
 
 body{
@@ -20,7 +21,6 @@ body{
     width: 100%;
     padding: 20px 5%; 
     flex-direction: column;
-    justify-content: space-between;
 }           
 
 header{
@@ -35,14 +35,17 @@ header{
 header h1{
     display: inline-flex;
     align-items: center;
-    gap: 10px
+    gap: 10px;
     font-size: 5rem;
     margin: 0% auto;
     flex-wrap: wrap;
     justify-content: center;
 }
-header img{
+#fachada{
+    width: 700px;
+    border-radius: 100px;
     display: flex;
+    margin: 0% auto;
 }
 
 main{
@@ -58,12 +61,45 @@ main h2{
 #divBotao{
     background-color: var(--verde);
     margin: 12% auto;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
     height: 20%;
     width: 70%;
     border-radius: 20px;
     text-align: justify;
+}
+#selecionarCidade{
+    color: var(--verde);
+    font-size: 2rem;
+    margin: 3% auto;
+}
+#divIFCE{
+    background-color: var(--verdeClaro);
+    color: rgba(0, 0, 0, 0.715);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    width: 560px;
+    height: 90px;
+    border-radius: 20px;
+}
+#subTitulo3{
+    font-size: 4rem;
+    color: black;
+    margin-bottom: 5%;
+}
+#h3Verde{
+    color: var(--verdeClaro);
+    margin-bottom: 5%;
+}
+#linhaVerde{
+    color: green;
+}
+#linhaAzul{
+    color: blue;
+}
+main{
+    text-align: center;
 }
 main p{
     display: flex;
@@ -75,6 +111,5 @@ main a{
     text-decoration: none;
 }
 main h3{
-
     font-size: 2.5rem;
 }
