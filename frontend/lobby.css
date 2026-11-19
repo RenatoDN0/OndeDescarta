@@ -22,7 +22,6 @@ html{
         flex-direction: column;
     }
 
-    
     header{
         height: 10vh;
     }
@@ -40,7 +39,6 @@ html{
         margin: 0% auto;
     }
 
-    
     main h2{
         font-size: 2rem;
         width: 300px;
@@ -53,11 +51,22 @@ html{
         padding-top: 30px;
         border-radius: 5px;
     }
+    main p{
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 2.5rem;
+    }
     #selecionarCidade{
         font-size: 1.5rem;
         margin: 30px auto;
     }
-
+    #divIFCE{
+        display: flex;
+        margin: 40px;
+        width: 100vw;
+        height: 90px;
+    }
 }
 
 body{
@@ -92,18 +101,13 @@ main h2{
     background-color: var(--verde);
     text-align: center;
 }
-#selecionarCidade{
-    margin: 3% auto;
-}
+
 #divIFCE{
     background-color: var(--verdeClaro);
-    color: rgba(0, 0, 0, 0.715);
+    color: var(--branco);
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
-    width: 560px;
-    height: 90px;
-    border-radius: 20px;
 }
 #subTitulo3{
     font-size: 4rem;
@@ -127,7 +131,6 @@ main p{
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 3rem;
 }
 main a{
     text-decoration: none;
