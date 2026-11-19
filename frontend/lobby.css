@@ -26,7 +26,7 @@ html{
         height: 10vh;
     }
     header h1{
-        font-size: 2rem;
+        font-size: 4rem;
         margin: 0% auto;
     }
     #divTitulo{
@@ -37,6 +37,10 @@ html{
         border-radius: 10px;
         display: flex;
         margin: 0% auto;
+    }
+
+    main h2{
+        font-size: 3rem;
     }
 }
 
@@ -66,7 +70,6 @@ main{
 }
 main h2{
     text-align: center;
-    font-size: 3rem;
     margin: 0% auto;
     width: 80%;
 }
