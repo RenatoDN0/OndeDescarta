@@ -47,7 +47,6 @@ html{
         display: flex;
         flex-direction: row;
         margin: 40px auto;
-        height: 15vh;
         width: 70vw;
         border-radius: 5px;
     }
