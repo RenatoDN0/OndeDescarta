@@ -45,7 +45,7 @@ html{
     }
     #divBotao{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         margin: 40px auto;
         height: 15vh;
         width: 70vw;
