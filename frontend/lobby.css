@@ -51,6 +51,10 @@ html{
         padding-top: 30px;
         border-radius: 5px;
     }
+    #selecionarCidade{
+        font-size: 2rem;
+    }
+
 }
 
 body{
@@ -86,8 +90,6 @@ main h2{
     text-align: center;
 }
 #selecionarCidade{
-    color: var(--verde);
-    font-size: 2rem;
     margin: 3% auto;
 }
 #divIFCE{
