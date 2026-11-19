@@ -22,6 +22,7 @@ html{
         flex-direction: column;
     }
 
+    
     header{
         height: 10vh;
     }
@@ -39,6 +40,7 @@ html{
         margin: 0% auto;
     }
 
+    
     main h2{
         font-size: 2rem;
         width: 300px;
@@ -52,7 +54,7 @@ html{
         border-radius: 5px;
     }
     #selecionarCidade{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
 }
